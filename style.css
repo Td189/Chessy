@@ -173,7 +173,3 @@ box-shadow: 0 5px rgb(34, 34, 34);}
 .logo svg{ transform: scale(0.3,0.3);}
 .logo svg, .logo h1{display: inline;}
 .logo h1{font-size: 28px;}
-.square{background-color: aquamarine;
-width: 20px;
-height: 20px;
-}
