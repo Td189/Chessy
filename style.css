@@ -1,11 +1,118 @@
-.main-container{width: 100%;
+html,body{text-align: center;
+    /*opacity: 0.9;*/
+margin: 0;
+font-family: 'Belgrano','Times New Roman', Times, serif;
+font-size: 16px;
+background-color: rgb(50, 47, 43);
+width: 100%;}
+
+.header-container,
+.main-container,
+.opening-container,
+ .Dating-Container{
+/*height: auto;*/
+margin: 0 auto;}
+
+a{  text-decoration: none;
+    color: white;
+};
+
+.button {display: inline-block;
+    background-color: rgba(0, 0, 0,0.7);
+    padding: 10px;
+border-radius: 15px;
+transition: font-size 0.7s ease;
+cursor: pointer;
+}
+
+.button:hover{font-size: 110%;}
+
+.button h1{color: rgba(245, 245, 245,1);}
+
+.button h1 i{color: palevioletred;}
+
+    /*.count_one,
+.count_two,
+.count_three,
+.count_four,
+.count_five,
+.count_six{
+    display: none;
+    background-color: bisque;
+    width:fit-content;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+}*/
+
+.Dating-Container{
+    margin: 0 auto;
+    width: 100%;
+    /*width: 1300px;*/
     height: 700px;
+    background-image: url("38f35da0e455e49acf5c0f111def6fe3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;}
+
+    .Dating-Title {width: 100%;
+        background-color: rgb(70, 60, 70);}
+
+        .Dating-Title h1{text-align: center;
+        font-size: 24px;
+        display: block;
+        margin: 0;}
+
+.header-container{
+    display: block;
+    width: 100%;
+    border: solid black 1px;
+    /*height: 60px;*/
+    position:fixed;
+    background-color: rgb(38, 33, 32);
+    z-index: 1;
+    color: white;}
+
+#hide_one{display: none;
+background-color: bisque;
+color: black;
+}
+
+    nav .nav a li{display: inline-flex;
+    padding: 5px;
+    float: right;
+    transition: font-size 0.5s ease, color 0.5s ease;
+    }
+
+    #Learn{text-align: center;
+        background-color: rgba(69, 56, 56, 0.9);
+        padding: 5px 0;
+        color: rgb(255, 235, 220);
+        /*margin: 0;*/
+        }
+
+        .logo{height: 60px;
+            float: left;
+            padding: 10px;
+            display: flex;}
+
+            .logo h1{font-size: 2rem;
+                margin: 0 auto;
+                display: inline;}
+
+    .logo svg{display: inline-block;
+        width: 40px;
+        height: 40px;}
+
+.main-container{width: 100%;
+    height: 600px;
    background-image: url("Chess_Background_Final.gif");
     /*background-image: url("Chess_Background#2.jpg");*/
        /*background-image: url("Chess_Background#3.jpg");*/
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: rgb(50, 47, 43);
+    /*background-color: rgb(50, 47, 43);*/
     background-position: center;
     align-content: center;
     justify-content: center;
@@ -19,148 +126,88 @@ margin: 0 auto;
 background-color: rgba(0, 0, 0, 0.7);
 padding: 5px 0;}
 
-.Opening img{width: 300px;
-height: 300px;
-border-radius: 20px;}
+nav .nav a li:hover{font-size: 110%;
+    color: rgb(213, 173, 102);}
+
+.opening-container{
+    display: flex;
+    width: 1300px;
+    flex-wrap: wrap;
+    justify-content: center;
+width: 100%;
+height: auto;
+margin: 0 auto;
+padding-bottom: 20px;
+background-color: rgb(50, 47, 43);
+}
+
+.Opening{margin: 0 5%;}
+
+.Opening h2{text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 5px rgb(34, 34, 34);} 
+
+.Opening img{width: 18.75rem;
+height: 18.75rem;
+border-radius: 20px;
+transition: all 0.5s ease;
+    cursor: pointer;}
 
 .Opening img:hover{transform: scale(1.1,1.1);
     opacity: 75%;}
-
-#Learn{text-align: center;
-background-color: rgba(69, 56, 56, 0.9);
-padding: 5px 0;
-color: rgb(255, 235, 220);
-margin: 0;
+    
+#pawn,
+#bishop,
+#rook,
+#knight,
+#king,
+#queen{margin: 0 5%;
+    display: inline-block;
 }
 
-.Opening h2{text-align: center;
-background-color: antiquewhite;
-border-radius: 10px;
-box-shadow: 0 5px rgb(34, 34, 34);} 
+/*.king{margin-right: 5%;}
+.queen{margin-left: 5%;}*/
 
-.fore-color{width: 100%;
-    /*background-color: hsl(25, 24%, 86%);*/
-    background-color: rgb(50, 47, 43);
-    background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=lpaIr0t4&id=A9292FBF3F50423BDDBAADAF50C4A8CEA4D94467&thid=OIP.lpaIr0t4-D9vt1t1nRvEGQHaE_&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f666656.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.969688af4b78f83f6fb75b759d1bc419%3frik%3dZ0TZpM6oxFCvrQ%26pid%3dImgRaw%26r%3d0&exph=1218&expw=1807&q=white+wood+background&simid=608035797953048480&FORM=IRPRST&ck=64D54648EA55C125A0B80A5A6FA743A0&selectedIndex=4&itb=0&qft=+filterui%3aimagesize-large');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 35px 0;
-margin: 0;}
-
-.opening-container{display: flex;
+#piece-container{width: 100%;
+    height: auto;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-width: 1300px;
-height: 700px;
-margin: 0 auto;
-padding-bottom: 20px;
-}
+    /*grid-template: repeat(2, 1fr)/repeat(10, 1fr);*/
+    margin: 0 auto;
+    background-color: rgb(50, 47, 43);
+    padding-top: 35px;
+    justify-content: center;
+    }
 
-body{text-align: center;
-    /*opacity: 0.9;*/
-margin: 0;
-font-family: 'Belgrano','Times New Roman', Times, serif;}
+   
 
-.header-container{display: block;
-border: solid rgba(0, 0, 0, 0) 1px;
-width: 100%;
-height: 60px;
-position:fixed;
-background-color: rgb(38, 33, 32);
-z-index: 1;
-color: white;}
+    .piece img{width: 300px;
+        height: 350px;
+    transition: transform 0.5s ease, filter 0.7s ease;
+    border-radius: 10px;
+    }
+    
+    .piece img:hover{transform: scale(1.1,1.1);
+        filter: brightness(0.6);}
 
-nav .nav a li{display: table;
-padding: 5px;
-float: right;
-transition: font-size 0.5s ease, color 0.5s ease;
-}
+/*.piece-forecolor{width: 100%;
+height: auto;
+background-color: rgb(50, 47, 43);}*/
 
-nav .nav a li {display: table-cell;}
-
-nav .nav a li:hover{font-size: 110%;
-color: rgb(213, 173, 102);
-}
-
-a{text-decoration: none;
-color: white;}
-
-.logo{float: left;
-padding: 10px;
-font-size: 32px;}
-
-.Opening img{transition: all 0.5s ease;
-cursor: pointer;}
-
-
-.Dating-Container{
-margin: 0 auto;
-width: 100%;
-/*width: 1300px;*/
-height: 700px;
-border:solid 1px rgba(255,0,0,0);
-background-image: url("38f35da0e455e49acf5c0f111def6fe3.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-align-content: center;}
-
-.button {display: inline-block;
-    background-color: rgba(0, 0, 0,0.7);
-    padding: 10px;
-border-radius: 15px;
-transition: font-size 0.7s ease;
-cursor: pointer;
-}
-
-.button:hover{font-size: 110%;}
-
-.button h1{color: rgba(245, 245, 245,1);
-}
-
-.button h1 i{color: palevioletred;}
-
-.Dating-Title {width: 100%;
-background-color: rgb(70, 60, 70);
-
-}
-.Dating-Title h1{text-align: center;
-font-size: 24px;
-display: block;
-margin: 0;}
+/*.square{height: 30px;
+width: 30px;
+background-color: aquamarine;
+display: inline-block;}*/
 
 .text {
 width: 100%;
 background-color: rgb(36, 34, 32);
 display: block;
-border: solid 1px rgba(0,0,0,0);}
+}
 .text,.Dating-Title{color: seashell;}
 
-.piece img{width: 300px;
-height: 350px;
-transition: transform 0.5s ease, filter 0.7s ease;
-border-radius: 10px;
-
-}
-
-.piece img:hover{transform: scale(1.1,1.1);
-    filter: brightness(0.6);}
-
-.piece-forecolor{width: 100%;
-height: auto;
-background-color: rgb(50, 47, 43);}
-
-.piece-container{width: 1100px;
-height: 900px;
-display: flex;
-flex-wrap: wrap;
-margin: 0 auto;
-justify-content: space-evenly;
-background-color: rgb(50, 47, 43);
-padding-top: 35px;
-}
-.piece-container h2{background-color: rgb(255, 235, 220);
+#piece-container h2{background-color: rgb(255, 235, 220);
 border-radius: 20px;
 box-shadow: 0 5px rgb(34, 34, 34);}
 
@@ -168,8 +215,71 @@ box-shadow: 0 5px rgb(34, 34, 34);}
     color: rgb(255, 235, 220);
     margin: 0;
     padding: 5px 0;
-    text-shadow: 0 5px rgb(34, 34, 34);
+    text-shadow: 0 5px rgb(34, 34, 34);    
 }
-.logo svg{ transform: scale(0.3,0.3);}
-.logo svg, .logo h1{display: inline;}
-.logo h1{font-size: 28px;}
+
+#view_one{display: none;
+    color: black;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 15px;}
+
+#view_two{background-color: bisque;
+display: none;
+border-radius: 15px;
+width:fit-content;
+margin: 0 auto;
+color:black}
+
+/*#mobile_openings{display: block;
+}*/
+
+@media only screen and (max-width: 930px){.pawn,
+    #bishop,
+    #rook,
+    #knight,
+    #king,
+    #queen{width: 100%;
+    display: none;}
+
+.main-container{display: none;}
+
+.nav{display: none;}
+
+.logo .icon{display: none;}
+
+.header-container{text-align: center;
+float: none;
+display: inline-block;
+position: static;
+margin: 0;
+}
+
+.meet{margin-top: 0px;}
+
+/*.Dating-Container{background-image: url("pink_checkered_background.jpg");
+height: 150px;}*/
+
+.button{margin: 0px;
+/*width:100%;*/
+padding: 1.5%;
+font-size: 0.7em;}
+}
+
+@media only screen and (max-width: 750px){
+#opening-container{display: none;}
+.Dating-Title{display: none;}
+#piece-container{display: none;}
+#view_one{display: inline-block;}
+#view_two{display: inline-block;}
+#hide_one{display: none;}
+#pawn,
+#bishop,
+#rook,
+#knight,
+#king,
+#queen{
+    display: none;
+}
+}
+
