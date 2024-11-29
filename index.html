@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&amp;display=swap" rel="stylesheet">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--IMPORTANT LINKS-->
+<!-- https://github.com/ornicar/lila/tree/master/public/piece -->
+
+<body>
+    <div class='header-container'>
+        <a href="#">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 2048 2048">
+                    <path fill="#f9f9f9"
+                        d="m435 1804 16-212 152-115 51-688-148-115-7-276 210-2 4 138 198 2 7-140 212-3 14 145 193-4 5-138h204l-7 285-145 106 42 693 172 124 19 207z" />
+                    <path fill="#101010"
+                        d="M1024 1501H643l5-74h752l5 74zm0-661H692l5-74h654l5 74zm0 1003H383l29-264 159-118 50-659-149-107-17-341h289v147h137V354h286v147h137V354h289l-17 341-149 107 50 659 159 118 29 264zm0-74h557l-15-149-161-119-54-735 152-109 13-230h-138v148h-285V427H955v148H670V427H532l13 230 152 109-54 735-161 119-15 149z" />
+                </svg>
+                <h1>Chessy Club</h1>
+                <!--<div class = 'square'></div>-->
+            </div>
+        </a>
+        <nav>
+            <div>
+                <ul class="nav">
+                    <a href="Bluff.html">
+                        <li>About Us</li>
+                    </a>
+                    <!--<a href = "#Mates"><li>Mates</li></a>-->
+                    <a href='Bluff.html'>
+                        <li>Community</li>
+                    </a>
+                    <a href = 'Tips.html'>
+                        <li>Tips</li>
+                    </a>
+                    <a href="#Learn">
+                        <li>Learn</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class='main-container'>
+        <div class='main-text'>
+            <h1>Only 64 Squares</h1>
+            <h3>And a <i>Lifetime</i> of Possibilities</h3>
+        </div>
+    </div>
+    <h1 class='meet'>Meet the Pieces!</h1>
+    <h1 id='view_one'>View More</h1>
+    <div id='piece-container'>
+        <div id='pawn' class='piece'><a href="https://en.wikipedia.org/wiki/Pawn_(chess)" target="_blank"><img
+                    src='Pawn.jpg'></a>
+            <h2>Pawn</h2>
+        </div>
+        <div id='bishop' class='piece'><a href='https://en.wikipedia.org/wiki/Bishop_(chess)' target='_blank'><img
+                    src='Bishop.jpg'></a>
+            <h2>Bishop</h2>
+        </div>
+        <div id='rook' class='piece'><a href='https://en.wikipedia.org/wiki/Rook_(chess)' target='_blank'><img
+                    src='Rook.jpg'></a>
+            <h2>Rook</h2>
+        </div>
+        <div id='knight' class='piece'><a href='https://en.wikipedia.org/wiki/Knight_(chess)' class='piece'
+                target='_blank'><img src='Knight.jpg'></a>
+            <h2>Knight</h2>
+        </div>
+        <div id='king' class='piece'><a href='https://en.wikipedia.org/wiki/King_(chess)' target='_blank'><img
+                    src='OIP (20).jpg'></a>
+            <h2>King</h2>
+        </div>
+        <div id='queen' class='piece'><a href='https://en.wikipedia.org/wiki/Queen_(chess)' target='_blank'><img
+                    src='Chess_piece_-_White_queen.jpg'></a>
+            <h2>Queen</h2>
+        </div>
+    </div>
+    <!--Set your first div's to whatever you whichever multiple elements you want to select instead of making them specific names-->
+    <div>
+        <h1 id='hide_one'>View Less</h1>
+    </div>
+
+    <h1 id="Learn">Learn an Opening!</h1>
+    <h1 id='view_two'>View More</h1>
+
+    <!--<div id = 'mobile_openings'>
+            <div class = 'count_one'><h2>Italian</h2></div>
+            <div class = 'count_two'><h2>London System</h2></div>
+            <div class = 'count_three'><h2>English</h2></div>
+            <div class = 'count_four'><h2>Scicilian</h2></div>
+            <div class = 'count_five'><h2>Dutch</h2></div>
+            <div class = 'count_six'><h2>Modern</h2></div>
+        </div>-->
+
+    <div id='opening-container'>
+        <div class='Opening'>
+            <a
+                href='https://www.bing.com/ck/a?!&&p=10f255578cf5c108JmltdHM9MTcyNjg3NjgwMCZpZ3VpZD0xYzFmZTg3MC0yNmJhLTYwY2UtMjMyMC1mYmYzMjdjNDYxZmImaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=1c1fe870-26ba-60ce-2320-fbf327c461fb&psq=italian+chess+opening&u=a1aHR0cHM6Ly93d3cuY2hlc3MuY29tL29wZW5pbmdzL0l0YWxpYW4tR2FtZQ&ntb=1'><img
+                    src='Italian.gif'></a>
+            <h2>The Italian</h2>
+        </div>
+
+        <div class='Opening'>
+            <img src='London System.gif'>
+            <h2>The London System</h2>
+        </div>
+
+        <div class="Opening">
+            <img src='English.gif'>
+            <h2>The English</h2>
+        </div>
+
+        <div class="Opening">
+            <img src="Scicilian.gif">
+            <h2>The Scicilian</h2>
+        </div>
+
+        <div class="Opening">
+            <img src='Dutch.gif'>
+            <h2>The Dutch</h2>
+        </div>
+
+        <div class="Opening">
+            <img src="Modern.gif">
+            <h2>The Modern</h2>
+        </div>
+    </div>
+    <h1 id='hide_two'>View Less</h1>
+    </div>
+
+    <!--<div class = 'text' id = 'Mates'><h1>Check Out our #1 Dating Website!</h1></div>
+<div class = "Dating-Title"><h1><em>Mate in 1</em></h1></div>
+<div class = "Dating-Container">
+  
+    <div class = 'button'>
+        <h1>Find your missing <i>Piece</i>♟️💞</h1>
+   <p>Find Your <em>Mate<em><p></div>
+</div>
+</div>-->
+    <script src='index.js'></script>
+</body>
+
+</html>
